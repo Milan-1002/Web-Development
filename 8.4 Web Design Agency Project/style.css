@@ -21,40 +21,48 @@ footer {
 
 .tile-image{
   height:200px;
-  width:300px;
+ float: left;
+ margin-right: 50px;
   
-}
-
-
-.left>img{
-  float: left;
-  margin: 10px 20px 10px 0;
-  
-  
-  
-}
-
-.right>img{
-  float: right;
-  margin: 10px 0 10px 20px;
-  
- 
-  
-}
-
-h2{
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-p{
-  font-size: 1em;
-  line-height: 1.5;
 }
 
 .card{
-  overflow: auto;
-  margin-bottom: 20px;
+  width: 45%;
 }
+
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
 
 
 
