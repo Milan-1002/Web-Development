@@ -1,0 +1,13 @@
+************flex-direction**************
+mainly two types of flex direction:
+1. row --> puts items of the container in the row one by one until there is no space in the row
+2. column --> puts items of the container in the column
+
+Note:
+--> when we set the display = inline-flex the flex box will be adjusted according to the largest content. 
+
+
+************FLEX LAYOUT****************
+Get the reference at:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
