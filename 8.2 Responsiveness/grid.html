@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+
+    body{
+      display: block;
+      background-color: rgb(5, 2, 2);
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 100px 200px 200px 200px;
+      gap: 3px;
+    }
+
+    .first {
+      grid-column: span 3;
+      color: yellow;
+      
+    }
+
+    .card {
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Grid</h1>
+  <div class="grid-container">
+    <div class="first card">
+      <h1>This is the example for using grid</h1>
+    </div>
+    <div class="card">
+      <img src="./dog.jpeg" alt="dog image" \img>
+      
+    </div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+</body>
+
+</html>

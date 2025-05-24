@@ -1,0 +1,39 @@
+CSS POSITIONING:
+
+1. static
+--> defalult
+-go step by step. or one by one
+
+2. Relative
+-->when we use this. this will gonna move our object relative to its original positon
+for ex. static will place the item one by one so relative gonna place the item relative to the static position
+
+
+3. Absolute
+--> Position relative to the nearest positioned ancestor or top left corner or webpage
+ 
+Z-INDEX = higher z-index gonna sit top of hte lower z-index
+        = every element on the screen will have defalult z-index of 0.
+
+
+4. Fixed
+--> positon relative to top left corner of browser window
+
+
+CSS DISPLAY:
+
+mainly three types of display:
+1. Inline = it fits all the elelment in the same line
+
+2. Inline-block = this is the combination of inline and block. inline sets the element in the same line
+                  block feature is useful to sets the height and width of the block
+
+3. none = hides the certain element from the screen 
+
+
+*************CSS FLOAT***********
+
+1. float = right/left  --> this will help in wrap the text around the element let's say image. we can choose right or left value
+
+2. clear: left/right  --> this will clear the float and place in normal place
+
